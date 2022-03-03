@@ -7,21 +7,21 @@ Create a ledger system that creates an eco-system where information flows openly
 ### Participants:
 
 - Retailer
- - Place an Order to a Producer
- - Receives Order from a Shipper
+  - Place an Order to a Producer
+  - Receives Order from a Shipper
 - Producer
- - Fulfills an Order
- -  Assigns to a Shipper
+  - Fulfills an Order
+  -  Assigns to a Shipper
 - Shipper
- - Creates shipment and transport Order assigned by Producer.
+  - Creates shipment and transport Order assigned by Producer.
 - Customer
- - Queries  an  Order  to  get  the  Order  Transaction  History,  tracing  it  back  to origination.
+  - Queries  an  Order  to  get  the  Order  Transaction  History,  tracing  it  back  to origination.
 - Regulator
- - Moderates  all  Orders  in  the  system  to  ensure  that  proper  quality  and guidelines are being followed and Audit purposes.
+  - Moderates  all  Orders  in  the  system  to  ensure  that  proper  quality  and guidelines are being followed and Audit purposes.
 ## **4. Restrictions/Rules:**
  ![Restrictions](https://i.postimg.cc/jq80pjMq/Table.jpg)
 ## **5. Data:**
-with  information  about  each  product  transaction  by  all  parties  will  be  stored  on  the Hyperledger database.
+This defines data that is required for the chain code, information about each product (e.g., Product Id, Price, etc.) and transactions by all parties will be stored on the Hyperledger database CouchDB. 
 ## **6. Exceptions:**
 An audit may need to be done and access may be needed in the case of a government investigation (E.g., Money laundering, illegal smuggling)
 ## **7. User Stories:**
@@ -38,16 +38,16 @@ This  sample  demonstrates  an  end-to-end  blockchain  application  that  conne
  ![StateDiagram](https://gateway.pinata.cloud/ipfs/QmWy6chZHjSPLuwWdBtzZxwfdP9vUDckVdVWYRyjudYNK9)
 ## **3. Data**
 
- ![Data](https://i.postimg.cc/26nZJJQh/State-Data.jpg)
+ ![Data](https://i.postimg.cc/zv7NdhbR/State-Data.jpg)
 
 ## **4. Functions - inputs/outputs**
 
- ![Data](https://i.postimg.cc/nrZDtk25/Function.jpg)
+ ![Data](https://i.postimg.cc/N0cNY1ST/Function.jpg)
 
 ## **5. Roles**
 
- ![Data](https://i.postimg.cc/FsTJ20LW/Role.jpg)
+ ![Data](https://i.postimg.cc/5tgmVDwd/Access.jpg)
  
 # Project Plan
 
- ![Project Plan](https://i.postimg.cc/nrCtM83Q/plan.jpg)
+ ![Project Plan](https://i.postimg.cc/Fz5bPd5m/Plan.jpg)
